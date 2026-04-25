@@ -1,15 +1,19 @@
 {
   "lastChecks": {
-    "systemHealth": "2026-04-23T16:15:58.136Z",
-    "cronFailureDeltas": "2026-04-23T16:15:58.136Z",
-    "persistentFailure": "2026-04-23T16:15:58.136Z",
-    "lastDailyChecks": "2026-04-23T16:15:58.136Z",
+    "systemHealth": "2026-04-25T01:21:50.784Z",
+    "cronFailureDeltas": "2026-04-25T01:21:50.784Z",
+    "persistentFailure": "2026-04-25T01:21:50.784Z",
+    "lastDailyChecks": "2026-04-25T01:21:50.784Z",
     "securityAudit": "2026-04-23T15:23:59.378Z",
-    "repoSizeCheck": "2026-04-23T16:15:58.136Z",
-    "memoryIndexCoverage": "2026-04-23T16:15:58.136Z",
-    "weeklyGatewayBindCheck": "2026-04-23T16:15:58.136Z",
-    "weeklyGatewayAuthCheck": "2026-04-23T16:15:58.136Z",
-    "gitBackup": "2026-04-23T16:15:58.136Z",
-    "gatewayUsageSync": "2026-04-23T16:15:58.136Z"
+    "repoSizeCheck": "2026-04-25T01:21:50.784Z",
+    "memoryIndexCoverage": "2026-04-23T18:33:57.283Z",
+    "weeklyGatewayBindCheck": "2026-04-23T18:33:57.283Z",
+    "weeklyGatewayAuthCheck": "2026-04-23T18:33:57.283Z",
+    "gitBackup": "2026-04-25T01:21:50.784Z",
+    "gatewayUsageSync": "2026-04-25T01:21:50.784Z",
+    "dataCollectionHealth": "2026-04-25T01:21:50.784Z",
+    "memoryCoverageCheck": "2026-04-25T01:21:50.784Z",
+    "weeklyGatewayLoopback": "2026-04-24T17:51:57.141Z",
+    "weeklyGatewayAuth": "2026-04-24T17:51:57.141Z"
   }
 }

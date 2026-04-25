@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="2000" viewBox="0 0 1400 2000" role="img" aria-labelledby="title desc">
+  <title id="title">What is an OpenClaw Skill</title>
+  <desc id="desc">Infographic explaining what an OpenClaw skill is, how it is structured, and how it runs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#131f3a"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b2a4b"/>
+      <stop offset="100%" stop-color="#16233f"/>
+    </linearGradient>
+    <style>
+      .h1 { font: 700 64px 'Inter', 'Segoe UI', sans-serif; fill: #f8fbff; }
+      .h2 { font: 700 38px 'Inter', 'Segoe UI', sans-serif; fill: #e9f1ff; }
+      .h3 { font: 700 28px 'Inter', 'Segoe UI', sans-serif; fill: #dce9ff; }
+      .p  { font: 500 24px 'Inter', 'Segoe UI', sans-serif; fill: #c8d8f8; }
+      .small { font: 500 20px 'Inter', 'Segoe UI', sans-serif; fill: #b8caef; }
+      .tag { font: 700 18px 'Inter', 'Segoe UI', sans-serif; fill: #081121; }
+      .mono { font: 600 20px 'JetBrains Mono', 'Consolas', monospace; fill: #dbe8ff; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="2000" fill="url(#bg)"/>
+
+  <text x="90" y="120" class="h1">What is an OpenClaw Skill?</text>
+  <text x="90" y="170" class="p">A skill is a reusable playbook that teaches the agent how to handle a specific kind of task.</text>
+
+  <rect x="90" y="220" rx="22" ry="22" width="1220" height="240" fill="url(#card)" stroke="#3b5a93"/>
+  <text x="130" y="285" class="h2">In one line</text>
+  <text x="130" y="340" class="p">Skill = trigger + instructions + constraints + examples</text>
+  <text x="130" y="385" class="small">It keeps behavior consistent, fast, and safer for repeated workflows.</text>
+
+  <rect x="90" y="500" rx="22" ry="22" width="590" height="600" fill="url(#card)" stroke="#3b5a93"/>
+  <text x="130" y="560" class="h2">Anatomy of a Skill</text>
+  <text x="130" y="620" class="h3">1) Metadata</text>
+  <text x="130" y="655" class="small">Name, description, when to use it</text>
+  <text x="130" y="715" class="h3">2) Trigger Logic</text>
+  <text x="130" y="750" class="small">How the agent decides this skill applies</text>
+  <text x="130" y="810" class="h3">3) Task Playbook</text>
+  <text x="130" y="845" class="small">Step-by-step execution guidance</text>
+  <text x="130" y="905" class="h3">4) Guardrails</text>
+  <text x="130" y="940" class="small">Safety, permissions, and limits</text>
+  <text x="130" y="1000" class="h3">5) Output Rules</text>
+  <text x="130" y="1035" class="small">Format and quality expectations</text>
+
+  <rect x="720" y="500" rx="22" ry="22" width="590" height="600" fill="url(#card)" stroke="#3b5a93"/>
+  <text x="760" y="560" class="h2">How It Runs</text>
+
+  <circle cx="790" cy="640" r="18" fill="#69d2ff"/>
+  <text x="830" y="648" class="p">User asks for something</text>
+
+  <line x1="790" y1="665" x2="790" y2="715" stroke="#69d2ff" stroke-width="4"/>
+  <circle cx="790" cy="740" r="18" fill="#9ce36f"/>
+  <text x="830" y="748" class="p">Agent matches the best skill</text>
+
+  <line x1="790" y1="765" x2="790" y2="815" stroke="#9ce36f" stroke-width="4"/>
+  <circle cx="790" cy="840" r="18" fill="#ffd36e"/>
+  <text x="830" y="848" class="p">Skill guides tools and decisions</text>
+
+  <line x1="790" y1="865" x2="790" y2="915" stroke="#ffd36e" stroke-width="4"/>
+  <circle cx="790" cy="940" r="18" fill="#ff9ca8"/>
+  <text x="830" y="948" class="p">Agent returns structured result</text>
+
+  <text x="760" y="1020" class="small">No matching skill? Agent falls back to general behavior.</text>
+
+  <rect x="90" y="1140" rx="22" ry="22" width="1220" height="350" fill="url(#card)" stroke="#3b5a93"/>
+  <text x="130" y="1200" class="h2">Typical Skill File (SKILL.md)</text>
+  <rect x="130" y="1230" rx="12" ry="12" width="1140" height="220" fill="#0f1a30" stroke="#2f4f87"/>
+  <text x="160" y="1280" class="mono">name: weather</text>
+  <text x="160" y="1320" class="mono">description: Use for weather and forecasts</text>
+  <text x="160" y="1360" class="mono">allowed-tools: [web_fetch, web_search]</text>
+  <text x="160" y="1400" class="mono">playbook: steps + edge-cases + output format</text>
+
+  <rect x="90" y="1530" rx="22" ry="22" width="1220" height="330" fill="url(#card)" stroke="#3b5a93"/>
+  <text x="130" y="1590" class="h2">Why Skills Matter</text>
+
+  <rect x="130" y="1620" rx="14" ry="14" width="340" height="52" fill="#7fe5ff"/>
+  <text x="145" y="1654" class="tag">Consistency</text>
+  <text x="130" y="1705" class="small">Same task, same quality bar.</text>
+
+  <rect x="530" y="1620" rx="14" ry="14" width="340" height="52" fill="#b9f38c"/>
+  <text x="545" y="1654" class="tag">Speed</text>
+  <text x="530" y="1705" class="small">Less rethinking for common workflows.</text>
+
+  <rect x="930" y="1620" rx="14" ry="14" width="340" height="52" fill="#ffe08f"/>
+  <text x="945" y="1654" class="tag">Safety</text>
+  <text x="930" y="1705" class="small">Built-in boundaries and checks.</text>
+
+  <text x="130" y="1785" class="p">Think of a skill like a specialist brain module your agent can load on demand.</text>
+
+  <text x="90" y="1940" class="small">OpenClaw • Skill concept overview • Generated by Clawd 🦞</text>
+</svg>
