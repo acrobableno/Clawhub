@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-29T15:00:33.529Z",
+  "entries": {
+    "memory:memory/2026-04-24.md:1:11": {
+      "key": "memory:memory/2026-04-24.md:1:11",
+      "path": "memory/2026-04-24.md",
+      "startLine": 1,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "# Daily Notes - 🦞 Clawd: Initialized memory notes so indexing can run. # Daily Notes - 🦞 Clawd: Initialized memory notes so indexing can run. - 🦞 Clawd: Completed Hermes/Paperclip rollout workstream in Discord context, including creating 7 Hermes agents and role-based naming to reduce number-based confusion. - 🦞 Clawd: User preference confirmed: role-based labels are easier than numeric agent names (\"cannot remember the numbers\"). - 🦞 Clawd: Active issues reported by user: Hermes WebUI not accessible from their side, and Paperclip org structure felt too flat. - 🦞 Clawd: Explained likely Hermes access constraint: WebUI instances are local-only when bound to 127.0.0.1; offered LAN rebi",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6326331045663972,
+      "maxScore": 0.6326331045663972,
+      "firstRecalledAt": "2026-04-29T15:00:33.529Z",
+      "lastRecalledAt": "2026-04-29T15:00:33.529Z",
+      "queryHashes": [
+        "79fc8e352ba3"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "hermes/paperclip",
+        "role-based",
+        "number-based",
+        "local-only",
+        "127.0.0.1",
+        "clawd",
+        "initialized",
+        "indexing"
+      ]
+    }
+  }
+}
