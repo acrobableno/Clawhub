@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-29T15:00:33.529Z",
+  "updatedAt": "2026-04-30T09:18:13.541Z",
   "entries": {
     "memory:memory/2026-04-24.md:1:11": {
       "key": "memory:memory/2026-04-24.md:1:11",
@@ -31,6 +31,69 @@
         "clawd",
         "initialized",
         "indexing"
+      ]
+    },
+    "memory:memory/2026-04-27.md:1:15": {
+      "key": "memory:memory/2026-04-27.md:1:15",
+      "path": "memory/2026-04-27.md",
+      "startLine": 1,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "# Memory Log — 2026-04-27 ## Session Notes - Gateway stable across all heartbeats (Reachable: yes, admin-capable, mDNS off) - Discord/Telegram channels OK - morning-brief-tech-news cron still in persistent error state (last ran ~15-16h ago, non-blocking) - Notifier scripts not found — heartbeat uses direct openclaw commands as fallback - System health/cron/persistent failure checks last ran ~10:32 UTC ## Issue Observed This Session - Repeated HEARTBEAT.md read attempts with empty path parameter — read tool calls were failing validation for an extended period (empty {} being passed instead of {path:...}). Resolved by explicitly passing path each time. - Multiple heartbeat prompt re-triggers",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-30T09:15:53.358Z",
+      "lastRecalledAt": "2026-04-30T09:15:53.358Z",
+      "queryHashes": [
+        "8c56b9675867"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "gateway",
+        "admin-capable",
+        "discord/telegram",
+        "morning-brief-tech-news",
+        "15-16h",
+        "non-blocking",
+        "health/cron/persistent",
+        "heartbeat.md"
+      ]
+    },
+    "memory:memory/2026-04-29.md:1:4": {
+      "key": "memory:memory/2026-04-29.md:1:4",
+      "path": "memory/2026-04-29.md",
+      "startLine": 1,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "🦞 Clawd: User wants the daily brief jobs that crawl the net to use Gemini instead of the prior search path. 🦞 Clawd: User wants those Gemini-backed daily brief jobs pinned to Gemini 3 Flash Live only. 🦞 Clawd: User asked for the Singapore news daily brief to be runnable on demand.",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-30T09:15:53.358Z",
+      "lastRecalledAt": "2026-04-30T09:18:13.541Z",
+      "queryHashes": [
+        "8c56b9675867",
+        "9a5fa0d0ab46"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "gemini-backed",
+        "clawd",
+        "wants",
+        "brief",
+        "jobs",
+        "crawl",
+        "net",
+        "use"
       ]
     }
   }
